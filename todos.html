@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todos</title>
+    <style>
+        #todost {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .todos {
+            border: 2px solid rgb(53, 9, 211);
+            padding: 20px;
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            transition: all 0, 3s linear;
+        }
+
+        .todos:hover {
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+
+            <li><a href="./todos.html">Todos</a></li>
+        </ul>
+    </nav>
+
+    <div id="todost"></div>
+
+    <script src="./todos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comment here</title>
+    <style>
+        #albums {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .album {
+            border: 2px solid rgba(43, 0, 255, 0.52);
+            padding: 20px;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+            transition: all 0, 3s linear;
+        }
+
+        .album:hover {
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./albums.html">Comment User</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="albums"></div>
+
+    <script src="./albums.js"></script>
+</body>
+
+</html>

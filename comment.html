@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comment here</title>
+    <style>
+        #comments {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .comment {
+            border: 2px solid rgba(255, 0, 0, 0.52);
+            padding: 20px;
+            border-top-right-radius: 50px;
+            border-bottom-left-radius: 50px;
+            transition: all 0, 3s linear;
+        }
+
+        .comment:hover {
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+    </style>
+</head>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="./comment.html">Comment User</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="comments"></div>
+
+    <script src="./comment.js"></script>
+</body>
+
+</html>
